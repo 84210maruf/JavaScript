@@ -23,4 +23,26 @@ let isApproved = false;
 let firstName1 = undefined;
 let selectedColor = null;
 
-console.log(typeof(name1))
+//...
+console.log(typeof(name1));
+
+//...
+let person = {
+    name:"Maruf",
+    age: 26
+};
+console.log(person);
+
+// Dot Notations
+person.name = "john";
+console.log(person);
+
+//Bracket Notations
+person['name'] = 'mery';
+console.log(person);
+
+//...OR
+let selection = 'name';
+person[selection] = 'harry';
+console.log(person['name']);
+console.log(person.name);
