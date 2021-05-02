@@ -46,3 +46,30 @@ let selection = 'name';
 person[selection] = 'harry';
 console.log(person['name']);
 console.log(person.name);
+
+// Array...
+let selectedColors = ['red', 'blue'];
+selectedColors[2] = 100;
+console.log(selectedColors[2]);
+// Length
+console.log(selectedColors.length);
+
+// FUNCTIONS 
+// Performing with a Task
+function greet(paramiter1, paramiter2){
+    console.log(paramiter1+" / "+paramiter2);
+}
+// Call this functions
+greet("Hallow Function");
+greet(100);
+greet(10.7634);
+greet("My Reg. no : ",15163103049);
+
+// Calculate with return functions
+function square(num1){
+    return num1*num1;
+}
+let value =  square(100);
+console.log(value);
+
+
