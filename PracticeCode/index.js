@@ -23,10 +23,13 @@ const learn = (num) => "Hellow"+num;
 //    const testing = () => {
 //        console.log("testing");
 //    }
-//  export testing;
+//  const p = 10;
+//  export p;
+//  export defult testing;
 
 //In app.js file
-//  import {test} from './test'
+//  import {abcd} from './test';    //importing defult value
+//  import {p} from './test';       //importing p variable
 
 
 
