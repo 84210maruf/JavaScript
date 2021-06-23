@@ -10,4 +10,4 @@ const course = {
 //const {details:{price}} = course;
 // with default value if p doesn't exist
 const{details:{price = "100 TK"}} = course;
-console.log(price);
+console.log(course.details);

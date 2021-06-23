@@ -3,7 +3,6 @@
 function a(){
     return 1;
 }
-
 // Function type 02
 const  learn = function(){
     return 2;
@@ -11,10 +10,10 @@ const  learn = function(){
 console.log(learn());
 
 // Array Function
-const learn = (num) => {
+const learn2 = (num) => {
     return "Hellow"+num;
 }
 //OR array func
-const learn = (num) => "Hellow"+num;
+const learn3 = (num) => "Hellow"+num;
 
 

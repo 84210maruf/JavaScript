@@ -19,3 +19,4 @@ const learn = (...args) => {
 }
 learn(10,20,30,40,50);
 learn("A","B","CX");
+learn(numbers);
