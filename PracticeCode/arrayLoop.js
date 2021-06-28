@@ -8,4 +8,5 @@ for (i = 0; i < fLen; i++) {
   text += "<li>" + fruits[i] + "</li>";
 }
 text += "</ul>";
+console.log(text);
 document.getElementById("demo").innerHTML = text;

@@ -33,7 +33,7 @@ console.log("After concat numbers value :"+con);
 // splice Method
 // Its chenge the main array element
 //(from index,delete which element,adding element(not mandetory))
-const spl = numbers.splice(1,2,[2,3]);
+const spl = numbers.splice(2,3,[2,3]);
 console.log(spl);
 console.log(numbers);
 const spl2 = numbers.splice(1,2);

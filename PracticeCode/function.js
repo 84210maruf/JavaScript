@@ -9,11 +9,11 @@ const  learn = function(){
 }
 console.log(learn());
 
-// Array Function
+// Arrow Function
 const learn2 = (num) => {
     return "Hellow"+num;
 }
-//OR array func
+//OR arrow func
 const learn3 = (num) => "Hellow"+num;
 
 

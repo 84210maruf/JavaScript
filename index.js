@@ -24,7 +24,7 @@ let firstName1 = undefined;
 let selectedColor = null;
 
 //...
-console.log(typeof(name1));
+console.log(typeof(selectedColor));
 
 //...
 let person = {
@@ -50,7 +50,7 @@ console.log(person.name);
 // Array...
 let selectedColors = ['red', 'blue'];
 selectedColors[2] = 100;
-console.log(selectedColors[2]);
+console.log(selectedColors);
 // Length
 console.log(selectedColors.length);
 
