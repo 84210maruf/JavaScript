@@ -34,10 +34,10 @@ console.log("After concat numbers value :"+con);
 // Its chenge the main array element
 //(from index,delete which element,adding element(not mandetory))
 const spl = numbers.splice(2,3,[2,3]);
-console.log(spl);
+console.log('const spl = numbers.splice(2,3,[2,3]); ',spl);
 console.log(numbers);
 const spl2 = numbers.splice(1,2);
-console.log(spl2);
+console.log('const spl2 = numbers.splice(1,2); ',spl2);
 console.log(numbers);
 
 // push Methods
