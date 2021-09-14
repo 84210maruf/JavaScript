@@ -16,4 +16,6 @@ const learn2 = (num) => {
 //OR arrow func
 const learn3 = (num) => "Hellow"+num;
 
-
+//Callback arrow func
+const learn3 = () => 10;
+console.log(learn3());
