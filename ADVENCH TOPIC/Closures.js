@@ -9,6 +9,3 @@ var sum = function(){
 
 var myFunc = sum();
 console.dir(myFunc);
-
-var st = Date.now();
-console.log(Date.now-st)
