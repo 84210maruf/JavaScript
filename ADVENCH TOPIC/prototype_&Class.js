@@ -25,7 +25,7 @@ const naeem = new Person('Naeem',27);
 naeem.sleep();
 
 /////////////////////////////////////////
-/////// Same thing using Class///////////
+////Same thing using Class & constracto//
 ///////////////////////////////////////// 
 
 class Person2 {
@@ -48,6 +48,27 @@ class Person2 {
 
 const sumon = new Person2('sumon',27);
 sumon.play();
+
+//////////////////////////////////////
+////////class prototype//////////////
+/////////////////////////////////////
+
+function P(name,age){
+    this.name=name;
+    this.age=age;
+}
+P.prototype = {
+    eat: function() {
+        console.log(`${this.name} is eating`)
+    },
+    age: function() {
+        console.log(`${this.age} years old`)
+    }
+}
+const nabil = new P('Nabil',10);
+console.log(nabil.age)
+
+
 ////////////////////////////////////////
 ///SAME with array prototype method////
 /////////////////////////////////////
