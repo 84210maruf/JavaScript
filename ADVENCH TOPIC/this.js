@@ -84,4 +84,21 @@ var v2 = 'toll';
 var v3 = 'Best ply';
 var v = [v1,v2,v3];
 
-printName.apply(masum,v);
+printName2.apply(masum,v);
+
+///////////////bind()////////////////
+var printName3 = function(v1,v2,v3) {
+    console.log(`${this.name} is ${v1}, ${v2} & ${v3}`);
+}
+
+var masum = {
+    name: 'masum',
+    age:34,
+};
+var v1 = 'handsome';
+var v2 = 'toll';
+var v3 = 'Best ply';
+var v = [v1,v2,v3];
+
+var newFunc =  printName3.bind(masum,v1,v2,v3);
+newFunc();
