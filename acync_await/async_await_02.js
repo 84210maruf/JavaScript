@@ -20,10 +20,9 @@ const meeting2 = new Promise((resolve, reject) => {
 // meetingDetails2 paramiter get value from Promise--> "resolve"
 const addToCalender = (meetingDetails2) => {
     const calender = `--> ${meetingDetails2.name} has been schdued on ${meetingDetails2.location} at ${meetingDetails2.time}`;
-    console.log(calender)
+    //console.log(calender)
     return Promise.resolve(calender);
 }
-
 
 meeting2
     .then(addToCalender)
@@ -34,4 +33,3 @@ meeting2
 
         console.log(error);
     })
-    addToCalender();
