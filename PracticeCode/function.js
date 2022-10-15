@@ -3,6 +3,8 @@
 function a(){
     return 1;
 }
+console.log(a());
+
 // Function type 02
 const  learn = function(){
     return 2;
@@ -13,9 +15,11 @@ console.log(learn());
 const learn2 = (num) => {
     return "Hellow"+num;
 }
+console.log(learn2());
+
 //OR arrow func
 const learn3 = (num) => "Hellow"+num;
 
 //Callback arrow func
-const learn3 = () => 10;
-console.log(learn3());
+const learn4 = () => 10;
+console.log(learn4());
