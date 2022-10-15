@@ -8,7 +8,7 @@ person.eat = function(){
     console.log(`person is eating`);
 }
 
-console.log(person);
+console.log(person.eat());
 
 //////////////Functional Scoop///////////////
 

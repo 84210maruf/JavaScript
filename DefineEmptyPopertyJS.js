@@ -9,7 +9,7 @@ console.log(arr);
 
 // Empty Int 
 var inT;
-console.log(inT='dhfhdu');
+console.log(inT='strings');
 
 // Empty string
 var str = ''; 

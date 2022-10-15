@@ -13,7 +13,7 @@ console.log(f);
 
 // It's not work
 // const mean Constant value
-const c = 19;
+var c = 19
 console.log(c);
 
 // Initialization
@@ -44,13 +44,13 @@ console.log(person);
 //...OR
 let selection = 'name';
 person[selection] = 'harry';
-console.log(person['name']);
-console.log(person.name);
+console.log(person);
 
 // Array...
 let selectedColors = ['red', 'blue'];
-selectedColors[2] = 100;
+selectedColors[2] = person;
 console.log(selectedColors);
+console.log(selectedColors[2].age)
 // Length
 console.log(selectedColors.length);
 
