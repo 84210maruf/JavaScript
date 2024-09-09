@@ -1,54 +1,61 @@
+var c = 19
+var c = 20 //redecleared
+console.log(c);
 
-let name = "maruf";
-console.log("My Name Is "+name);
+var z = 19
+z = 20  //reasigned
+console.log(z)
+
+
+let name0 = "maruf";
+name0 = 'hjbhjb' //just reasigned
+console.log("My Name Is "+name0);
 
 let firstName = "Maruf";
 let lastName = "Hossen";
 console.log(firstName+" "+lastName);
 
-// It's Worked
-let f = "Maruf";
-f = "Hossen";
-console.log(f);
 
-// It's not work
-// const mean Constant value
-var c = 19
-console.log(c);
 
 // Initialization
 let name1 = 'Maruf';
-let age = 30;
+let age = 30.;
 let isApproved = false;
 let firstName1 = undefined;
 let selectedColor = null;
+let arry = ["Saab", "Volvo", "BMW"]
 
 //...
-console.log(typeof(selectedColor));
+console.log(typeof(arry));
 
-//...
-let person = {
+//...object
+const person = {
     name:"Maruf",
-    age: 26
+    age: {
+        n:10,
+        x:20
+    }
 };
 console.log(person);
 
 // Dot Notations
-person.name = "john";
+person.name = "john"; 
 console.log(person);
+
+console.log(person.age);
 
 //Bracket Notations
-person['name'] = 'mery';
-console.log(person);
 
 //...OR
+person['age'] = 30;
 let selection = 'name';
-person[selection] = 'harry';
+person[selection] = person;
 console.log(person);
 
 // Array...
 let selectedColors = ['red', 'blue'];
-selectedColors[2] = person;
+selectedColors[2] = 10;
+selectedColors[3] = person;
 console.log(selectedColors);
 console.log(selectedColors[2].age)
 // Length
